@@ -1,5 +1,7 @@
 pub mod entry;
 pub mod util;
+pub mod file_manager;
+pub mod error;
 fn main() {
     let e = entry::Entry::new();
     println!("size {:?}", e.size());

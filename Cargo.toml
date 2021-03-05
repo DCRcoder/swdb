@@ -1,7 +1,7 @@
 [package]
 name = "swdb"
 version = "0.1.0"
-authors = ["liubin <liubin01@zhihu.com>"]
+authors = ["zhihan <67460361@qq.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 byteorder = "1.2"
 crc32fast = "1.2"
+failure = "0.1.5"
